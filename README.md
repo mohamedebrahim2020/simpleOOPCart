@@ -15,7 +15,7 @@
 ### Hardware Requirements
 -	PHP > 7.2
 -   Composer
--	Laravel 6.2
+-	Laravel 7.2
 
 ### Installation
 first
@@ -57,9 +57,10 @@ $ php artisan db:seed --class=ProductSeeder
 $ php artisan serve
 ```
 7. run postman collection 
-
+```
 for collection of post man to test APIs
 **_[here](https://www.getpostman.com/collections/a100dc896e4542c7ee79)_**
-
+```
 8. for unit test
+```
 $ php vendor/phpunit/phpunit/phpunit
