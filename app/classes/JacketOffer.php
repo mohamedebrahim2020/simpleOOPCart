@@ -3,9 +3,9 @@
 namespace App\classes;
 
 
-use App\Offer as AppOffer;
 
-class jacketOffer extends AppOffer
+
+class jacketOffer extends offers
 {
     public function  checkOffer($array)
     {

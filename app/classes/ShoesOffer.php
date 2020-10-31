@@ -1,9 +1,9 @@
 <?php
 namespace App\classes;
 
-use App\interfaces\Offer; 
+ 
 
-class ShoesOffer implements Offer
+class ShoesOffer extends offers
 {
     public function  checkOffer($array){
       $array["discount"]+=["id2"=> "-".$array["id2"][3]*0.1];

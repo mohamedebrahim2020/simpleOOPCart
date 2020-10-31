@@ -1,6 +1,6 @@
 <?php
 
-use App\Offer;
+
 use App\Price;
 use App\Product;
 use Illuminate\Database\Seeder;
