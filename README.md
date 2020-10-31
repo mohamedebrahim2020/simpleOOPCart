@@ -62,3 +62,14 @@ $ php artisan serve
 7. for unit test
 ```
 $ php vendor/phpunit/phpunit/phpunit
+```
+
+8. my design & architecture
+
+i depend in coding on solid priciple specially single resposibilty & small interfaces 
+ first i have check class which implements checkstore interface which check about the quantity in store 
+ and calculate total prices
+ second i have tax class which implements tax interface and make taxes calculation
+ third i have offers class which implements offer interface and has 2 child classes (ShoesClass And JacketClass) calculate possible discount
+ fourth i have checkout class wich implements checkout interface to show the cart outputs as(overall,discount ,subtotal ,taxes)
+ 
